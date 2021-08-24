@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document*/
+body{
+	background-color: #f6f5f5;
+	margin: 0px; padding: 0px;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+section{
+	width: 100%; height: 95vh; 
+	background-image: url("../images/bgp.png");
+	background-repeat: no-repeat; background-size: cover;
+	position: relative;
+}
+nav{
+	display: flex; justify-content: space-between;
+	align-items: center; height: 60px; background-color: #FFFFFF;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+	padding: 0px 5%;
+}
+nav ul{
+	display: flex;
+}
+nav ul li a{
+	margin: 30px; font-family: myriad pro regular; color: #505050;
+	font-size: 15px; font-weight: 700;
+}
+ul li a:hover{
+	background-color: palegreen; color: white; padding: 5px;
+}
+ul li.active a{
+	background-color: grey; color: white; padding: 5px;}
+
+.contact{
+  background-color: #FFFFFF; 
+	color: #505050; font-family: myriad pro regular;
+	border: 2px solid black; font-weight: bold;
+}
+.social img{
+	height: 20px; padding: 8px;
+
+}
+
+.tc p:nth-child(1){
+	font-family: calibri; font-weight: bold; color: #6d6d6d;
+	font-size: 22px;
+}
+.tc p:nth-child(2){
+	font-family: calibri; font-weight: bold;
+	letter-spacing: 1px; color: #1a1a1a; font-size: 40px;
+}
+
+.tc p:nth-child(3){
+	font-family: myriad pro regular; 
+	color: #796E6E; font-size: 15px; line-height: 20px;
+}
+
+.tc p {
+	line-height: 0px; margin: 45px 0px 25px;
+}
+
+.tc{
+	position: absolute; left: 13%; top: 42%; 
+	transform: translate(-13%, -42%);
+}
+
+.tc button{
+	width: 130px; height: 42px; border-radius: 10px;
+	font-family: calibri; font-weight: bold; font-size: 14px;
+	outline: none; margin: 0px 10px;
+}
+
+button:active{
+	transform: scale(1.1);
+}
+
+.mypic{
+	height: 500px; position: absolute; bottom: 40px;
+	left: 70%; transform: translateX(-70%);
+}
+.ac{
+	width: 80%; height: 330px; background-color: #FFFFFF;
+	border-radius: 20px; box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	display: flex; margin: -7% auto 20px auto; position: relative;
+    justify-content: space-evenly; align-items: center;
+}
+.ac img{ height: 250px; }
+.at{width: 550px;}
+
+.at p:nth-child(1){
+	color: #403e3e; font-family: myriad pro; font-weight: bold;
+	font-size: 23px; line-height: 0px;
+}
+.at p:nth-child(2){
+	color: #3e3d3d; font-family: myriad pro; font-weight: bold;
+	font-size: 13px; line-height: 5ppx;
+}
+.at p:nth-child(3),.at p:nth-child(4) {
+	color: #7e7d7d; font-family: calibri; 
+	font-size: 16px;
+}
+.down-cv{
+	width: 120px; height: 40px;
+	outline: none; font-family: calibri;
+	background-color: #262525;
+	color: #FFFFFF;
+	border: none;
+}
+.hire-btn{ width: 120px; height: 40px;
+	outline: none; font-family: calibri;
+	background-color: #262525;
+	color: #FFFFFF;
+	border: none;
+}
+.mh-skills .mh-professional-skill{
+	font-size: 30px; text-align: center;
+	line-height: 40px; font-weight: 400; margin-bottom: 60px;
+	font-family: 'Poppins',sans-serif;
+}
+
+.mh-professional-progress{
+	display: inline-block; margin: 0 auto;
+	float: none; width: 48%; margin-bottom: 30px; text-align: center;
+}
+.mh-progress{
+	margin-bottom: 10px; font: 900 1.14285/1; color: white;
+}
+ 
+
+
+ 
